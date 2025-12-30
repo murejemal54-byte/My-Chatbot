@@ -1,0 +1,39 @@
+:root {
+  --bg: #fff;
+  --fg: #111;
+  --accent: #0070f3;
+}
+html,body,#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--fg);
+}
+.container {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+.site-header {
+  background: #f8f8f8;
+  border-bottom: 1px solid #eee;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+.header-inner .brand {
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+}
+.header-inner nav a {
+  margin-left: 12px;
+  text-decoration: none;
+  color: inherit;
+}
